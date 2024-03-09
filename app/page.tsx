@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Speech from "@/components/Speech";
 
 export default function Home() {
-  return <main>Dyslexia</main>;
+  return (
+    <main>
+      <Speech />
+    </main>
+  );
 }
